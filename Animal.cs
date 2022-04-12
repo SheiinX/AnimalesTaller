@@ -9,11 +9,11 @@ namespace Animales
     abstract class Animal
     {
         private string comida;
-        private int tamaño;
+        private string tamaño;
         private string origen;
-        private bool estado;
+        private int estado = 1;
 
-        public Animal(string comida, int tamaño, string origen)
+        public Animal(string comida, string tamaño, string origen)
         {
             this.comida = comida;
             this.tamaño = tamaño;
@@ -25,8 +25,8 @@ namespace Animales
             Console.WriteLine("Animal: 'ñom ñom'");
         }
 
-        public bool CambiarEstado()
-        {
+        public void CambiarEstado(int estadoAnimal)
+        {/*
             if (estado == true)
             {
                 return true;
@@ -35,6 +35,10 @@ namespace Animales
             {
                 return false;
             }
+            */
+
+            estado = estadoAnimal;
+
         }
 
         public virtual void HacerRuido()

@@ -10,7 +10,7 @@ namespace Animales
     {
         private string nombre;
 
-        public Gato(string nombre, int tamañoGarras, string comida, int tamaño, string origen) : base(tamañoGarras, comida, tamaño, origen)
+        public Gato(string nombre, int tamañoGarras, string comida, string tamaño, string origen) : base(tamañoGarras, comida, tamaño, origen)
         {
             this.nombre = nombre;
         }

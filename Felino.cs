@@ -10,7 +10,7 @@ namespace Animales
     {
         public int tamañoGarras;
 
-        public Felino(int tamañoGarras, string comida, int tamaño, string origen) : base(comida, tamaño, origen)
+        public Felino(int tamañoGarras, string comida, string tamaño, string origen) : base(comida, tamaño, origen)
         {
             this.tamañoGarras = tamañoGarras;
         }

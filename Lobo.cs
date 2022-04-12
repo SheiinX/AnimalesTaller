@@ -8,7 +8,7 @@ namespace Animales
 {
     class Lobo : Canino
     {
-        public Lobo(string colorPelaje, string comida, int tamaño, string origen) : base(colorPelaje, comida, tamaño, origen)
+        public Lobo(string colorPelaje, string comida, string tamaño, string origen) : base(colorPelaje, comida, tamaño, origen)
         {
             
         }

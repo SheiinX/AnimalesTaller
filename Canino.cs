@@ -10,7 +10,7 @@ namespace Animales
     {
         private string colorPelaje;
 
-        public Canino(string colorPelaje, string comida, int tamaño, string origen) : base(comida, tamaño, origen)
+        public Canino(string colorPelaje, string comida, string tamaño, string origen) : base(comida, tamaño, origen)
         {
             this.colorPelaje = colorPelaje;
         }
