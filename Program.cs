@@ -13,7 +13,8 @@ namespace Animales
 
             int i;
             bool flag = false;
-            string nombre;
+
+            string nombre, n1, n2, n3;
 
             do
             {
@@ -29,14 +30,17 @@ namespace Animales
                         switch (i)
                         {
                             case 1:
+                                //Crear los Console.ReadLine() para cada uno de los atributos de la clase y mostrarlo en consola
                                 Leon leon = new Leon(0, "", "", "");
                                 animals.Add(leon);
                                 break;
                             case 2:
+                                //Crear los Console.ReadLine() para cada uno de los atributos de la clase y mostrarlo en consola
                                 Tigre tigre = new Tigre(0, "", "", "");
                                 animals.Add(tigre);
                                 break;
                             case 3:
+                                //Crear los Console.ReadLine() para cada uno de los atributos de la clase y mostrarlo en consola
                                 nombre = Console.ReadLine();
                                 Gato gato = new Gato(nombre, 0, "", "", "");
                                 animals.Add(gato);
@@ -50,9 +54,15 @@ namespace Animales
                         switch (i)
                         {
                             case 1:
-
+                                //Crear los Console.ReadLine() para cada uno de los atributos de la clase y mostrarlo en consola
+                                nombre = Console.ReadLine();
+                                Perro perro = new Perro(nombre, "", "", "", "");
+                                animals.Add(perro);
                                 break;
                             case 2:
+                                //Crear los Console.ReadLine() para cada uno de los atributos de la clase y mostrarlo en consola
+                                Lobo lobo = new Lobo("", "", "", "");
+                                animals.Add(lobo);
                                 break;
                         }
                         break;
